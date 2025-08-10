@@ -138,3 +138,8 @@ window.addEventListener('keydown', (e) => {
 requestAnimationFrame(paddelRenderer)
 requestAnimationFrame(ballRenderer)
 requestAnimationFrame(gameInfoDisplay)
+
+export { createBall };
+export { createPaddle };
+export { Ball };
+export { Paddle };

@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#menu-scren-container {
+    width: 50vw;
+    height: 60vh;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#options-menu-container {
+    border: 3px solid red;
+    height: 100%;
+    width: 30%;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+#preview-screen-container {
+    border: 3px solid blue;
+    height: 100%;
+    width: 70%;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#preview-screen-header {
+    border: 2px solid yellow;
+    width: 100%;
+    height: 14%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#element-preview {
+    border: 2px solid black;
+    width: 90%;
+    height: 70%;
+}
+
+#preview-screen-footer {
+    border: 2px solid lime;
+    width: 100%;
+    height: 14%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-element-buttons {
+    width: 5%;
+    height: 40%;
+    margin: 20px;
+}
